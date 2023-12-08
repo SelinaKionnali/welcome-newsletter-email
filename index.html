@@ -8,10 +8,59 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@0;1&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+<style type="text/css">
+  body {
+    margin: 0;
+    background-color: #cccccc;
+    font-family: Quicksand, Helvetica, sans-serif;
+  }
+  table {
+border-spacing: 0;
+  }
+  td {
+    padding: 0;
+  }
+  img {
+    border: 0;
+  }
+  .wrapper {
+    width: 100%;
+    table-layout: fixed;
+    background-color: #cccccc;
+    padding-bottom: 40px;
+  }
+  .main {
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    border-spacing: 0;
+    font-family: sans-serif;
+    color: #4a4a4a;
+  }
+  .two-columns {
+    text-align: center;
+    font-size: 0;
+    padding: 40px 0;
+  }
+  .two-columns .column {
+    width: 100%;
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .two-columns .column {
+    padding: 10px;
+  }
+  .two-columns .content {
+    text-align: left;
+    font-size: 15px;
+    line-height: 20px;
+  }
 
-<style>
   @media (prefers-color-scheme: dark) {
     .darkmode { 
       background-color: #333 !important; /* Dark background for dark mode */
@@ -22,280 +71,247 @@
     }
     /* Other dark mode specific styles */
   }
-</style>
-
-
-<!--[if mso]>
-  /* Responsive styles */
-  @media only screen and (max-width: 375px) {
-    .emailContainer {
-      width: 100% !important;
-      box-sizing: border-box;
-    }
-
-    .headerImage {
-      width: 100% !important;
-      height: auto !important;
-    }
-
-    .content {
-      padding: 10px !important;
-    }
-
-    /* Adjust font sizes for smaller screens */
-    .heading {
-      font-size: 24px !important;
-    }
-
-    .bodyText {
-      font-size: 14px !important;
-    }
-
-    /* More responsive adjustments as needed */
+  @media screen and (max-width: 600px) {
+    
+    
   }
-<![endif]-->
-
+</style>
 
   <title>Newsletter Welcome Letter</title>
 </head>
-<body style="background-color: #F7F7F7; width: 100%; height: fit-content; margin: 0 auto;" class="emailContainer paddingFix">
-  <!-- <div style="background-color: black; width: 80%; height: fit-content; border: greenyellow 2px solid; margin: 0 auto; padding: 20px;"> -->
-    <div style="display: flex; flex-direction: column; align-items: flex-start; position: relative;">
-      <div style="background-color: #F7F7F7; margin: 0 auto; width: 607px; border-radius: 5px;">
-        <div style="background: url(./assets/HeroImgWithTxt.png) no-repeat center center; background-size: cover; border-radius: 5px; width: 607px; height: 650px; border: 2px solid transparent; margin: 0 0 0 -2px;">
-           <div style="width: 380px; height: 69px; margin: 18% 10% 0 30%;">
-            </div>
-        </div>
+<body >
+  <center class="wrapper">
+    <table class="main" width="100%">
 
-        <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="headerTable paddingFix">
-          <tr>
-            <td style="padding: 28px; background-color: #F7F7F7;" align="center">
-              <table width="100%" border="0" cellspacing="0" cellpadding="0" class="contentTable">
-                <tr>
-                  <td style="font-family: 'Quicksand', Helvetica, sans-serif; color: #62713a; font-size: 40px; font-weight: 700; line-height: 60px;">
-                    Welcome, [NAME]!
-                  </td>
-                </tr>
-                <tr>
-                  <td style="padding-top: 16px; font-family: 'Quicksand', sans-serif; color: #62713a; font-size: 16px; line-height: 150%;">
-                    We're thrilled to have you join the Kionnali Living Systems (KLS) community! Our newsletter will give you a sneak peek behind the scenes into our process, our team, and more information about the Roamstead. Community members will also be given a chance to have their voice heard, so make sure to check into see if there is a new poll in our monthly newsletters.
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-        </table>
-        
+      <!-- HERO IMAGE -->
+      <tr>
+        <td>
+          <img src="https://github.com/SelinaKionnali/welcome-newsletter-email/blob/main/assets/HeroImgWithTxt.png?raw=true" alt="Kionnali Roamstead" width="600" style="max-width: 100%; height: 650px;">
+        </td>
+      </tr>
 
-        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="headerTable">
-          <tr>
-            <td>
-              <table width="600" align="center" border="0" cellspacing="0" cellpadding="0" style="max-width: 600px;" class="contentTable">
-                <tr>
-                  <td align="center" valign="top" style="padding: 20px;">
-                    <!-- Header with background shading -->
-                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color: #E6E6E6; border-radius: 5px;">
-                      <tr>
-                        <td align="center" style="font-family: 'Quicksand', sans-serif; color: #62713a; font-size: 40px; font-weight: 700; padding: 10px;">
-                          Our Mission
-                        </td>
-                      </tr>
-                    </table>
-                    <!-- Spacer Row for additional space between header and image -->
-                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                      <tr>
-                        <td height="20" style="font-size: 20px; line-height: 20px;">&nbsp;</td>
-                      </tr>
-                    </table>
-                    <!-- Image and Text Content -->
-                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                      <tr>
-                        <td width="100%" style="padding-right: 10px;" class="darkmode">
-                          <img src='https://github.com/SelinaKionnali/welcome-newsletter-email/blob/main/assets/ImgWithFont.png?raw=true' width="100%" height="260" alt="Our Mission" style="display: block; width: 530px; height: 260px; border:0;">
-                        </td>
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-        </table>
-        
+      <!-- WELCOME HEADING, NAME & TEXT -->
 
-<table width="607" align="center" border="0" cellspacing="0" cellpadding="0" bgcolor="#F7F7F7">
-  <tr>
-    <td style="background: url('https://github.com/SelinaKionnali/welcome-newsletter-email/blob/main/assets/BGleafBanner.png?raw=true') no-repeat center center; height: 113px; background-size: cover; padding: 20px;">
-      <table width="100%" border="0" bgcolor="#FFFFFF" cellspacing="0" cellpadding="0" style="border-collapse: collapse; background-color: #F7F7F7; border-radius: 10px;">
-        <tr>
-          <td align="center" style="font-size: 30px; font-family: 'Quicksand', sans-serif; font-weight: 700; color: #62713a; padding: 20px;">
-            Why You'll Love Being Here
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <!-- Repeat this block for each section -->
-  <tr>
-    <td style="padding: 26px 16px; background-color: #F7F7F7; border-radius: 20px;">
-      <table width="100%" border="0" bgcolor="#FFFFFF" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
-        <tr>
-          <td style="font-family: 'Quicksand', sans-serif; color: black; font-weight: bold;">
-            R&D Updates: 
-          </td>
-        </tr>
-        <tr>
-          <td style="font-family: 'Quicksand', sans-serif; color: black;">
-            Be the first to know when something cool happens by checking out our R&D page.
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-    <!-- Repeat this block for each section -->
-    <tr>
-      <td style="padding: 26px 16px; background-color: #F7F7F7; border-radius: 20px;">
-        <table width="100%" border="0" bgcolor="#FFFFFF" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
-          <tr>
-            <td style="font-family: 'Quicksand', sans-serif; color: black; font-weight: bold;">
-              Pre-orders and alpha:
-            </td>
-          </tr>
-          <tr>
-            <td style="font-family: 'Quicksand', sans-serif; color: black;">
-              Be first in line for a Roamstead, and help us decide what features to release.
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  <!-- Repeat this block for each section -->
-  <tr>
-    <td style="padding: 26px 16px; background-color: #F7F7F7; border-radius: 20px;">
-      <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
-        <tr>
-          <td style="font-family: 'Quicksand', sans-serif; color: black; font-weight: bold;">
-            Virtual Tour:
-          </td>
-        </tr>
-        <tr>
-          <td style="font-family: 'Quicksand', sans-serif; color: black;">
-            Get a firsthand experience of a Roamstead through our interactive 3D tour.
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <!-- Repeat this block for each section -->
-  <tr>
-    <td style="padding: 26px 16px; background-color: #F7F7F7; border-radius: 20px;">
-      <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
-        <tr>
-          <td style="font-family: 'Quicksand', sans-serif; color: black; font-weight: bold;">
-            Community:
-          </td>
-        </tr>
-        <tr>
-          <td style="font-family: 'Quicksand', sans-serif; color: black;">
-            Be a part of our community as it grows and have your voice heard.
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
+      <tr>
+        <td >
+          <table width="100%">
+            <tr>
+              <td style="text-align: left; padding: 28px;">
+
+                <p style="font-family: 'Quicksand', Helvetica, sans-serif; font-size: 40px; font-weight: 700; line-height: 60px; color: #62713a;">Welcome, [NAME]!</p>
+                <p style="font-family: 'Quicksand', sans-serif; color: #62713a; font-size: 16px; line-height: 24px;">We're thrilled to have you join the Kionnali Living Systems (KLS) community! Our newsletter will give you a sneak peek behind the scenes into our process, our team, and more information about the Roamstead. Community members will also be given a chance to have their voice heard, so make sure to check into see if there is a new poll in our monthly newsletters.
+                </p>
+
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <!-- GREEN BORDER -->
+
+      <tr>
+        <td height="5" style="background-color: #62713a;"></td>
+      </tr>
+
+      <!-- MISSION SECTION -->
+
+      <tr>
+        <td>
+          <table width="100%">
+            <tr>
+              <td style="text-align: left; padding: 0 28px;">
+                <p style="font-family: 'Quicksand', sans-serif; color: #62713a; font-size: 40px; font-weight: 700; padding: 0 10px; margin-bottom: 0;">Our Mission</p>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="two-columns">
+                <table class="column">
+                  <tr>
+                    <td class="padding">
+                      <table class="content">
+                        <tr>
+                          <td>
+                            <img src="https://github.com/SelinaKionnali/welcome-newsletter-email/blob/main/assets/WelcomeImg1.png?raw=true" alt="" style="max-width: 260px; padding: 0 20px;">
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+
+                <table class="column">
+                  <tr>
+                    <td class="padding">
+                      <table class="content">
+                        <tr>
+                          <td >
+                            <p style="font-family: 'Quicksand', Helvetica, sans-serif; color: #62713a; font-size: 16px; line-height: 24px;">We are going to revolutionise the way we live by creating the</p>
+                            <img src="./assets/Roamstead.png" alt="" style="padding: 15px;">
+                            <p style="font-family: 'Quicksand', Helvetica, sans-serif; color: #62713a; font-size: 16px; line-height: 24px;">a home that reduces or eliminates bills, is upgradable, customisable and durable, and is prepared for disasters.</p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+
+              </td>
+            </tr>
+          
+          </table>
+        </td>
+      </tr>
+
+      <!-- BENEFITS SECTION -->
+
+      <tr>
+        <td style="background: url('https://github.com/SelinaKionnali/welcome-newsletter-email/blob/main/assets/BGleafBanner.png?raw=true') no-repeat center center; height: 113px; background-size: cover; padding: 20px;">
+          <table width="100%" bgcolor="#FFFFFF" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border-radius: 10px;">
+            <tr>
+              <td>
+                <p style="font-size: 30px; font-family: 'Quicksand', sans-serif; font-weight: 700; color: #62713a; text-align: center;">Why You'll Love Being Here</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <table>
+            <tr>
+              <td style="text-align: left; padding: 20px; color: #62713a; font-family: 'Quicksand', Helvetica, sans-serif; font-size: 17px; line-height: 25px;">
+                <p style="margin-bottom: 25px;"><strong>R&D Updates:</strong> Be the first to know when something cool happens by checking out our R&D page.</p>
+                <p><strong>Pre-orders and alpha:</strong> Be first in line for a Roamstead, and help us decide what features to release.</p>
+                <p><strong>Virtual Tour:</strong> Get a firsthand experience of a Roamstead through our interactive 3D tour.</p>
+                <p><strong>Community:</strong> Be a part of our community as it grows and have your voice heard.</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
   
 <!-- Virtual Tour Section -->
-<table width="607" align="center" border="0" cellspacing="0" cellpadding="0" style="background: url('https://github.com/SelinaKionnali/welcome-newsletter-email/blob/main/assets/roamsteadImg1.png?raw=true') no-repeat center center; background-size: cover;">
-  <tr>
-    <td height="450" valign="middle" align="center">
-      <table align="center" border="0" cellspacing="0" cellpadding="0">
-        <tr>
-          <td align="center" valign="middle" class="darkmode" style="padding: 12px 22px; background-color: #F7F7F7; border-radius: 60px; font-family: 'Quicksand', sans-serif; font-weight: 700; font-size: 20px; color: #F7F7F7; text-decoration: none;">
-            <a href="https://www.kionnali.com/virtual-tour-no-sign-up" style="color: black; text-decoration: none;">Take virtual tour</a>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
+
+<tr>
+  <td style="background: url('https://github.com/SelinaKionnali/welcome-newsletter-email/blob/main/assets/roamsteadImg1.png?raw=true') no-repeat center center; height: 450px; background-size: cover; padding: 20px;">
+    <table align="center" width="100%" bgcolor="#FFFFFF" cellspacing="0" cellpadding="0" style="border-radius: 60px; width: 250px;">
+      <tr>
+        <td align="center" valign="middle" style="padding: 12px; border-radius: 60px; font-family: 'Quicksand', Helvetica, sans-serif; font-weight: 700; font-size: 20px; text-decoration: none;">
+          <a href="https://www.kionnali.com/virtual-tour-no-sign-up" style="color: black; text-decoration: none;">Take virtual tour</a>
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>
+
 
 <!-- Poll Section -->
-<table width="607" align="center" border="0" bgcolor="#F7F7F7" cellspacing="0" cellpadding="0" style="background: url('https://github.com/SelinaKionnali/welcome-newsletter-email/blob/main/assets/greenPoleBG.png?raw=true') no-repeat center center; background-size: cover;" class="pollTable">
-  <tr>
-    <td height="618" valign="middle" align="center">
-      <table align="center" border="0" cellspacing="0" cellpadding="0" class="darkmode">
-        <tr>
-          <td class="darkmode" align="center" valign="middle" style="font-family: 'Quicksand', sans-serif; color: white !important; font-weight: 700; font-size: 25px; margin-bottom: 10px;">
-            Have your voice heard
-              <!-- Spacer Row for additional space between header and image -->
-               <table width="100%" border="0" cellspacing="0" cellpadding="0" class="darkmode">
-                  <tr>
-                    <td height="20" style="font-size: 20px; line-height: 20px;">&nbsp;</td>
-                                  </tr>
-                                </table>
-            
-          </td>
-        </tr>
-        <tr>
-          <td align="center" valign="middle" style="padding: 20px; background-color: black; border-radius: 10px;">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdnGDkscQzEx4rr7pvRBcftrfkqrKjt9Mh6MDsiYOOV2q4wyA/viewform" class="darkmode" target="_blank" style="background: #FFC600 !important; color: white; padding: 10px 20px; border: none; border-radius: 5px; font-family: 'Quicksand', sans-serif; font-weight: 700; cursor: pointer; text-decoration: none; display: inline-block; margin-top: 20px;">
-              Take the Poll
-            </a>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
 
+<tr>
+  <td style="background: url('https://github.com/SelinaKionnali/welcome-newsletter-email/blob/main/assets/greenPoleBG.png?raw=true') no-repeat center center; background-size: cover; height: 620px;">
+    <table align="center" border="0" cellspacing="0" cellpadding="0" class="darkmode">
+      <tr>
+        <td class="darkmode" align="center" valign="middle" style="font-family: 'Quicksand', sans-serif; color: white; font-weight: 700; font-size: 25px; margin-bottom: 10px;">
+          <p>Have you voice heard</p>
 
+        </td>
+      </tr>
+    </table>
+
+    <table align="center" width="100%" bgcolor="#FFFFFF" cellspacing="0" cellpadding="0" style="border-radius: 60px; width: 250px;">
+      <tr>
+        <td align="center" valign="middle" style="padding: 12px; border-radius: 60px; font-family: 'Quicksand', Helvetica, sans-serif; font-weight: 700; font-size: 20px; text-decoration: none;">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdnGDkscQzEx4rr7pvRBcftrfkqrKjt9Mh6MDsiYOOV2q4wyA/viewform" style="color: black; text-decoration: none;">Take the poll</a>
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>
           
-            <!-- Creative Team Section -->
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td  align="center">
-      <table border="0" cellspacing="0" cellpadding="0">
-        <tr>
-          <td >
-            <img src="./assets/seaImgWithTxt.png" width="110%" height="100%" alt="" style="display: block;">
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
+ <!-- Creative Team Section -->
+ <tr>
+  <td>
+    <table width="100%">
+
+      <tr>
+        <td class="two-columns">
+          <table class="column">
+            <tr>
+              <td class="padding">
+                <table class="content">
+                  <tr>
+                    <td>
+                      <img src="https://github.com/SelinaKionnali/welcome-newsletter-email/blob/main/assets/img1.png?raw=true" alt="" style="max-width: 156px; padding: 0 50px; margin: 20px 0;">
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+
+          <table class="column">
+            <tr>
+              <td class="padding">
+                <table class="content">
+                  <tr>
+                    <td>
+                      <p style="font-family: 'Quicksand', Helvetica, sans-serif; color: #62713a; font-size: 16px; line-height: 24px;">We're not just building homes; we're building a future where resilience and sustainability are the norm, not the exception. Thank you for joining us on this transformative journey.</p>
+                      <p style="font-family: 'Quicksand', Helvetica, sans-serif; color: #62713a; font-size: 16px; line-height: 24px;">Stay Creative,</p>
+                      <p style="font-family: 'Quicksand', Helvetica, sans-serif; color: #62713a; font-size: 16px; line-height: 24px;">The Team at Kionnali</p>
+
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+
+        </td>
+      </tr>
+    
+    </table>
+  </td>
+</tr>
 
 <!-- Footer Section -->
-<table class="footerTable" width="608" align="center" border="0" cellspacing="0" cellpadding="0" style="background: url('https://github.com/SelinaKionnali/welcome-newsletter-email/blob/main/assets/FooterFrameBG.png?raw=true') no-repeat center center; background-size: cover;">
-  <tr>
-    <td align="center" style="padding: 30px 20px;">
-      <img src="https://github.com/SelinaKionnali/welcome-newsletter-email/blob/main/assets/SunflowerIcon.png?raw=true" width="46" height="46" alt="" style="margin-bottom: 10px;">
-      <p style="font-family: 'Quicksand', sans-serif; font-weight: 500; font-size: 12px; color: #FFFFFF; text-align: center; width: 568px;">
-        Copyright © 2023 Kionnali Living Systems, All rights reserved.
-        <br>
-        You are receiving this email because you opted in via our website.
-        <br><br>
-        Kionnali Living Systems
-        <br><br>
-        Enterprise Centre, Exploration Drive,
-        <br>
-        Aberdeen, Scotland, AB22 8SE
-        <br><br>
-        visit us at <a href="https://kionnali.com/" style="color: #FFFFFF; text-decoration: underline;">kionnali.com</a>
+
+<tr>
+  <td align="center" style="background: url('https://github.com/SelinaKionnali/welcome-newsletter-email/blob/main/assets/FooterFrameBG.png?raw=true') no-repeat center center; background-size: cover; height: 265px;">
+    <table width="100%">
+
+      <tr>
+        <td style="padding: 30px 10px; text-align: center;">
+           <img src="https://github.com/SelinaKionnali/welcome-newsletter-email/blob/main/assets/SunflowerIcon.png?raw=true" width="46" height="46" alt="green footer background" >
+               <p style="font-family: 'Quicksand', sans-serif; font-weight: 500; font-size: 12px; color: #FFFFFF; text-align: center; width: 568px;">
+                Copyright © 2023 Kionnali Living Systems, All rights reserved.</p>
+                <p style="font-family: 'Quicksand', sans-serif; font-weight: 500; font-size: 12px; color: #FFFFFF; text-align: center; width: 568px;">
+                 You are receiving this email because you opted in via our website.</p>
+                <p style="font-family: 'Quicksand', sans-serif; font-weight: 500; font-size: 12px; color: #FFFFFF; text-align: center; width: 568px;">
+                 Kionnali Living Systems</p>
+                <p style="font-family: 'Quicksand', sans-serif; font-weight: 500; font-size: 12px; color: #FFFFFF; text-align: center; width: 568px;">
+                 Enterprise Centre, Exploration Drive,</p>
+                <p style="font-family: 'Quicksand', sans-serif; font-weight: 500; font-size: 12px; color: #FFFFFF; text-align: center; width: 568px;">
+                 Aberdeen, Scotland, AB22 8SE</p>
+                <p style="font-family: 'Quicksand', sans-serif; font-weight: 500; font-size: 12px; color: #FFFFFF; text-align: center; width: 568px;">
+                visit us at <a href="https://kionnali.com/" style="color: #FFFFFF; text-decoration: underline;">kionnali.com</a></p>
       </p>
       <p style="text-align: center; width: 100%; margin-top: 10px;">
         <a href="https://kionnali.us9.list-manage.com/unsubscribe/post" style="color: #FFFFFF; text-decoration: underline; font-family: 'Quicksand', sans-serif; font-size: 12px;">Unsubscribe</a>
       </p>
-    </td>
-  </tr>
-</table>
 
+        </td>
+      </tr>
+
+    </table>
+  </td>
+</tr>
           
 
-          </div>
-      </div>
-    </div>
-  <!-- </div> -->
+      </table>  
+    </center>
 </body>
 </html>
